@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - play moodish </title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="brand"> <img src="images/logo.png" alt="spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+
+        <div class="songlist">
+            <h1>Best of NCS - No Copyright Sounds</h1>
+            <div class="songItems">
+                <img src="images/cover1.jpg" alt="1" srcset="">
+                <span class="songName">Let me down</span>
+                <span class="songlistplay"><span class="timestamp">05:34&nbsp;<i  id="0" class="far songItemPlay fa-play-circle"></i></span>
+                </span>
+            </div>
+            <div class="songItems">
+                <img src="images/cover2.jpg" alt="2" srcset="">
+                <span class="songName">Die for you</span>
+                <span class="songlistplay"><span class="timestamp">05:34&nbsp;<i id="1" class="far songItemPlay fa-play-circle"></i></span>
+                </span>
+            </div>
+            <div class="songItems">
+                <img src="images/cover3.jpg" alt="3" srcset="">
+                <span class="songName">Willow </span>
+                <span class="songlistplay"><span class="timestamp">05:34&nbsp;<i id="2" class="far songItemPlay fa-play-circle"></i></span>
+                </span>
+            </div>
+            <div class="songItems">
+                <img src="images/cover4.jpg" alt="4" srcset="">
+                <span class="songName">Stuck with you</span>
+                <span class="songlistplay"><span class="timestamp">05:34&nbsp;<i id="3" class="far songItemPlay fa-play-circle"></i></span>
+                </span>
+            </div>
+            <div class="songItems">
+                <img src="images/cover5.jpg" alt="5" srcset="">
+                <span class="songName">Positions</span>
+                <span class="songlistplay"><span class="timestamp">05:34<i id="4" class="far songItemPlay fa-play-circle"></i></span>
+                </span>
+            </div>
+            <div class="songItems">
+                <img src="images/cover1.jpg" alt="1" srcset="">
+                <span class="songName">Let me down</span>
+                <span class="songlistplay"><span class="timestamp">05:34&nbsp;<i  id="0" class="far songItemPlay fa-play-circle"></i></span>
+                </span>
+            </div>
+            <div class="songItems">
+                <img src="images/cover2.jpg" alt="2" srcset="">
+                <span class="songName">Die for you</span>
+                <span class="songlistplay"><span class="timestamp">05:34&nbsp;<i id="1" class="far songItemPlay fa-play-circle"></i></span>
+                </span>
+            </div>
+
+
+        </div>
+        <div class="songBanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" value="0" min="0" max="100">
+
+        <div class="songInfo">
+            <img src="images/Nt6v.gif" width="42px" alt="music_playiny" id="gif">
+            <span id="masterSongName">Let me down</span>
+
+
+        </div>
+        <div class="icons">
+            <!-- fontawesome icon -->
+            <i class="fas fa-3x fa-step-backward" id="previous"></i>
+            <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
+            <i class="fas fa-3x fa-step-forward" id="next"></i>
+
+        </div>
+    </div>
+    <!-- </div> -->
+
+
+    <script src="https://kit.fontawesome.com/95bc0fc28f.js" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
